@@ -20,6 +20,17 @@ mitmproxy -s ./mycmd.py
 
 # 这个界面类似 vim 和 metasploit 之列
 # 通过 冒号 输入命令
+# 按住 tab 可以切换查看命令
+
+# 列表模式下命令
+# 回车 选中信息
+# q 退出程序
+
+# 信息页模式
+# q 退出，回到列表
+# p 跳上一个信息
+
+# 调用自定义命令
 # 指定选中
 :mycmd.addheader @focus
 # 指定全部
